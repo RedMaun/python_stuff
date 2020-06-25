@@ -81,13 +81,11 @@ soldier_5 = enemy_army.train_lancer("Ayabusa")
 soldier_6 = enemy_army.train_archer("Kirigae")
 
 
-
-soldier_1.introduce() == "Knight Jaks, European swordsman"
-soldier_2.introduce() == "Raubritter Harold, European lancer"
-soldier_3.introduce() == "Ranger Robin, European archer"
+print(soldier_1.introduce())
+print(soldier_2.introduce())
+print(soldier_3.introduce())
     
-soldier_4.introduce() == "Samurai Kishimoto, Asian swordsman"
-soldier_5.introduce() == "Ronin Ayabusa, Asian lancer"
-soldier_6.introduce() == "Shinobi Kirigae, Asian archer"
-
+print(soldier_4.introduce())
+print(soldier_5.introduce())
+print(soldier_6.introduce())
 
